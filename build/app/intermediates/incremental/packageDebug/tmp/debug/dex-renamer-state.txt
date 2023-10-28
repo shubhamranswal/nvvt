@@ -1,9 +1,9 @@
-#Sat Oct 28 21:09:04 IST 2023
-base.0=/Users/adilsiddiqui/Desktop/app/build/app/intermediates/dex/debug/mergeExtDexDebug/classes.dex
-base.1=/Users/adilsiddiqui/Desktop/app/build/app/intermediates/dex/debug/mergeLibDexDebug/0/classes.dex
-base.2=/Users/adilsiddiqui/Desktop/app/build/app/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.3=/Users/adilsiddiqui/Desktop/app/build/app/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
-base.4=/Users/adilsiddiqui/Desktop/app/build/app/intermediates/dex/debug/mergeProjectDexDebug/5/classes.dex
+#Sat Oct 28 23:20:01 IST 2023
+base.0=C\:\\Users\\shubh\\Desktop\\Virtual Tour - NV\\nvvt\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\shubh\\Desktop\\Virtual Tour - NV\\nvvt\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\shubh\\Desktop\\Virtual Tour - NV\\nvvt\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.3=C\:\\Users\\shubh\\Desktop\\Virtual Tour - NV\\nvvt\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+base.4=C\:\\Users\\shubh\\Desktop\\Virtual Tour - NV\\nvvt\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=0/classes.dex

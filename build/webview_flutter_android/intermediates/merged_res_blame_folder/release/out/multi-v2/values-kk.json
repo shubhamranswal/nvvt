@@ -4,7 +4,7 @@
             "outputFile": "io.flutter.plugins.webviewflutter.webview_flutter_android-merged_res-11:/values-kk/values-kk.xml",
             "map": [
                 {
-                    "source": "/Users/adilsiddiqui/.gradle/caches/transforms-3/7e9df2ac2213a6bd3cef0f2f27870d79/transformed/core-1.6.0/res/values-kk/values-kk.xml",
+                    "source": "C:\\Users\\shubh\\.gradle\\caches\\transforms-3\\7e9df2ac2213a6bd3cef0f2f27870d79\\transformed\\core-1.6.0\\res\\values-kk\\values-kk.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -19,7 +19,7 @@
             "outputFile": "io.flutter.plugins.webviewflutter.webview_flutter_android-mergeReleaseResources-9:/values-kk/values-kk.xml",
             "map": [
                 {
-                    "source": "/Users/adilsiddiqui/.gradle/caches/transforms-3/7e9df2ac2213a6bd3cef0f2f27870d79/transformed/core-1.6.0/res/values-kk/values-kk.xml",
+                    "source": "C:\\Users\\shubh\\.gradle\\caches\\transforms-3\\7e9df2ac2213a6bd3cef0f2f27870d79\\transformed\\core-1.6.0\\res\\values-kk\\values-kk.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

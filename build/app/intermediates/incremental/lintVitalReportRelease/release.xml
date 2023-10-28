@@ -4,23 +4,23 @@
     minSdkVersion="21"
     targetSdkVersion="33"
     shrinking="true"
-    mergedManifest="/Users/adilsiddiqui/Desktop/app/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
-    manifestMergeReport="/Users/adilsiddiqui/Desktop/app/build/app/outputs/logs/manifest-merger-release-report.txt"
-    proguardFiles="/Users/adilsiddiqui/Desktop/app/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.3.0:/Users/adilsiddiqui/Downloads/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
-    partialResultsDir="/Users/adilsiddiqui/Desktop/app/build/app/intermediates/lint_vital_partial_results/release/out">
+    mergedManifest="C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\build\app\intermediates\merged_manifest\release\AndroidManifest.xml"
+    manifestMergeReport="C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\build\app\outputs\logs\manifest-merger-release-report.txt"
+    proguardFiles="C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\build\app\intermediates\default_proguard_files\global\proguard-android.txt-7.3.0;C:\flutter\packages\flutter_tools\gradle\flutter_proguard_rules.pro;proguard-rules.pro"
+    partialResultsDir="C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\build\app\intermediates\lint_vital_partial_results\release\out">
   <buildFeatures
       namespacing="REQUIRED"/>
   <sourceProviders>
     <sourceProvider
-        manifest="src/main/AndroidManifest.xml"
-        javaDirectories="src/main/java:src/main/kotlin"
-        resDirectories="src/main/res"
-        assetsDirectories="src/main/assets"/>
+        manifest="src\main\AndroidManifest.xml"
+        javaDirectories="src\main\java;src\main\kotlin"
+        resDirectories="src\main\res"
+        assetsDirectories="src\main\assets"/>
     <sourceProvider
-        manifest="src/release/AndroidManifest.xml"
-        javaDirectories="src/release/java:src/release/kotlin"
-        resDirectories="src/release/res"
-        assetsDirectories="src/release/assets"/>
+        manifest="src\release\AndroidManifest.xml"
+        javaDirectories="src\release\java;src\release\kotlin"
+        resDirectories="src\release\res"
+        assetsDirectories="src\release\assets"/>
   </sourceProviders>
   <testSourceProviders>
   </testSourceProviders>
@@ -32,9 +32,9 @@
         value="android.app.Application" />
   </manifestPlaceholders>
   <mainArtifact
-      classOutputs="/Users/adilsiddiqui/Desktop/app/build/app/intermediates/javac/release/classes:/Users/adilsiddiqui/Desktop/app/build/app/tmp/kotlin-classes/release:/Users/adilsiddiqui/Desktop/app/build/app/kotlinToolingMetadata:/Users/adilsiddiqui/Desktop/app/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
+      classOutputs="C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\build\app\intermediates\javac\release\classes;C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\build\app\tmp\kotlin-classes\release;C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\build\app\kotlinToolingMetadata;C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\build\app\intermediates\compile_and_runtime_not_namespaced_r_class_jar\release\R.jar"
       applicationId="com.btkit.nakshatra_vatika"
-      generatedSourceFolders="/Users/adilsiddiqui/Desktop/app/build/app/generated/ap_generated_sources/release/out:/Users/adilsiddiqui/Desktop/app/build/app/generated/aidl_source_output_dir/release/out:/Users/adilsiddiqui/Desktop/app/build/app/generated/source/buildConfig/release:/Users/adilsiddiqui/Desktop/app/build/app/generated/renderscript_source_output_dir/release/out"
-      generatedResourceFolders="/Users/adilsiddiqui/Desktop/app/build/app/generated/res/rs/release:/Users/adilsiddiqui/Desktop/app/build/app/generated/res/resValues/release">
+      generatedSourceFolders="C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\build\app\generated\ap_generated_sources\release\out;C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\build\app\generated\aidl_source_output_dir\release\out;C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\build\app\generated\source\buildConfig\release;C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\build\app\generated\renderscript_source_output_dir\release\out"
+      generatedResourceFolders="C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\build\app\generated\res\rs\release;C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\build\app\generated\res\resValues\release">
   </mainArtifact>
 </variant>

@@ -4,7 +4,7 @@
             "outputFile": "com.btkit.nakshatra_vatika.app-mergeReleaseResources-10:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/adilsiddiqui/Desktop/app/android/app/src/main/res/values-night/styles.xml",
+                    "source": "C:\\Users\\shubh\\Desktop\\Virtual Tour - NV\\nvvt\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

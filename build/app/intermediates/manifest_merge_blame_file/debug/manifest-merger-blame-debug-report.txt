@@ -13,13 +13,13 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->/Users/adilsiddiqui/Desktop/app/android/app/src/main/AndroidManifest.xml:3:5-67
-15-->/Users/adilsiddiqui/Desktop/app/android/app/src/main/AndroidManifest.xml:3:22-64
+15-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:3:5-67
+15-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:3:22-64
 16
 17    <application
 18        android:name="android.app.Application"
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.6.0] /Users/adilsiddiqui/.gradle/caches/transforms-3/7e9df2ac2213a6bd3cef0f2f27870d79/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+19-->[androidx.core:core:1.6.0] C:\Users\shubh\.gradle\caches\transforms-3\7e9df2ac2213a6bd3cef0f2f27870d79\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
 20        android:debuggable="true"
 21        android:icon="@mipmap/ic_launcher"
 22        android:label="Nakshatra Vatika - Virtual Tour" >
@@ -50,17 +50,17 @@
 47            android:value="2" />
 48
 49        <uses-library
-49-->[androidx.window:window:1.0.0-beta04] /Users/adilsiddiqui/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+49-->[androidx.window:window:1.0.0-beta04] C:\Users\shubh\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
 50            android:name="androidx.window.extensions"
-50-->[androidx.window:window:1.0.0-beta04] /Users/adilsiddiqui/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+50-->[androidx.window:window:1.0.0-beta04] C:\Users\shubh\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
 51            android:required="false" />
-51-->[androidx.window:window:1.0.0-beta04] /Users/adilsiddiqui/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+51-->[androidx.window:window:1.0.0-beta04] C:\Users\shubh\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
 52        <uses-library
-52-->[androidx.window:window:1.0.0-beta04] /Users/adilsiddiqui/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+52-->[androidx.window:window:1.0.0-beta04] C:\Users\shubh\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
 53            android:name="androidx.window.sidecar"
-53-->[androidx.window:window:1.0.0-beta04] /Users/adilsiddiqui/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+53-->[androidx.window:window:1.0.0-beta04] C:\Users\shubh\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
 54            android:required="false" />
-54-->[androidx.window:window:1.0.0-beta04] /Users/adilsiddiqui/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+54-->[androidx.window:window:1.0.0-beta04] C:\Users\shubh\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
 55    </application>
 56
 57</manifest>

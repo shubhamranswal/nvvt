@@ -196,47 +196,7 @@ androidx.core.R$attr
 androidx.core.R$color
 androidx.core.R$dimen
 androidx.core.R$drawable
-androidx.core.R$id:
-    public static final int accessibility_action_clickable_span
-    public static final int action_container
-    public static final int action_divider
-    public static final int action_image
-    public static final int action_text
-    public static final int actions
-    public static final int async
-    public static final int blocking
-    public static final int chronometer
-    public static final int dialog_button
-    public static final int forever
-    public static final int icon
-    public static final int icon_group
-    public static final int info
-    public static final int italic
-    public static final int line1
-    public static final int line3
-    public static final int normal
-    public static final int notification_background
-    public static final int notification_main_column
-    public static final int notification_main_column_container
-    public static final int right_icon
-    public static final int right_side
-    public static final int tag_accessibility_actions
-    public static final int tag_accessibility_clickable_spans
-    public static final int tag_accessibility_heading
-    public static final int tag_on_apply_window_listener
-    public static final int tag_on_receive_content_listener
-    public static final int tag_on_receive_content_mime_types
-    public static final int tag_screen_reader_focusable
-    public static final int tag_state_description
-    public static final int tag_transition_group
-    public static final int tag_unhandled_key_event_manager
-    public static final int tag_unhandled_key_listeners
-    public static final int tag_window_insets_animation_callback
-    public static final int text
-    public static final int text2
-    public static final int time
-    public static final int title
-    private void <init>()
+androidx.core.R$id
 androidx.core.R$integer
 androidx.core.R$layout
 androidx.core.R$string
@@ -485,11 +445,7 @@ androidx.core.graphics.BlendModeCompat
 androidx.core.graphics.BlendModeUtils$1
 androidx.core.graphics.BlendModeUtils
 androidx.core.graphics.ColorUtils
-androidx.core.graphics.Insets:
-    public static androidx.core.graphics.Insets add(androidx.core.graphics.Insets,androidx.core.graphics.Insets)
-    public static androidx.core.graphics.Insets min(androidx.core.graphics.Insets,androidx.core.graphics.Insets)
-    public static androidx.core.graphics.Insets subtract(androidx.core.graphics.Insets,androidx.core.graphics.Insets)
-    public static androidx.core.graphics.Insets wrap(android.graphics.Insets)
+androidx.core.graphics.Insets
 androidx.core.graphics.PaintCompat
 androidx.core.graphics.PathParser$ExtractFloatResult
 androidx.core.graphics.PathParser$PathDataNode
@@ -720,12 +676,7 @@ androidx.core.text.util.LinkifyCompat
 androidx.core.util.AtomicFile
 androidx.core.util.DebugUtils
 androidx.core.util.LogWriter
-androidx.core.util.ObjectsCompat:
-    private void <init>()
-    public static int hashCode(java.lang.Object)
-    public static java.lang.Object requireNonNull(java.lang.Object)
-    public static java.lang.Object requireNonNull(java.lang.Object,java.lang.String)
-    public static java.lang.String toString(java.lang.Object,java.lang.String)
+androidx.core.util.ObjectsCompat
 androidx.core.util.Pair
 androidx.core.util.PatternsCompat
 androidx.core.util.Pools$Pool
@@ -762,13 +713,7 @@ androidx.core.view.DisplayCompat$Api17Impl
 androidx.core.view.DisplayCompat$Api23Impl
 androidx.core.view.DisplayCompat$ModeCompat
 androidx.core.view.DisplayCompat
-androidx.core.view.DisplayCutoutCompat:
-    public void <init>(android.graphics.Rect,java.util.List)
-    public void <init>(androidx.core.graphics.Insets,android.graphics.Rect,android.graphics.Rect,android.graphics.Rect,android.graphics.Rect,androidx.core.graphics.Insets)
-    private static android.view.DisplayCutout constructDisplayCutout(androidx.core.graphics.Insets,android.graphics.Rect,android.graphics.Rect,android.graphics.Rect,android.graphics.Rect,androidx.core.graphics.Insets)
-    public java.util.List getBoundingRects()
-    public androidx.core.graphics.Insets getWaterfallInsets()
-    android.view.DisplayCutout unwrap()
+androidx.core.view.DisplayCutoutCompat
 androidx.core.view.DragAndDropPermissionsCompat
 androidx.core.view.DragStartHelper$1
 androidx.core.view.DragStartHelper$2
@@ -802,42 +747,23 @@ androidx.core.view.NestedScrollingParent
 androidx.core.view.NestedScrollingParentHelper
 androidx.core.view.OnApplyWindowInsetsListener
 androidx.core.view.OnReceiveContentListener
-androidx.core.view.OnReceiveContentViewBehavior:
-    public abstract androidx.core.view.ContentInfoCompat onReceiveContent(androidx.core.view.ContentInfoCompat)
+androidx.core.view.OnReceiveContentViewBehavior
 androidx.core.view.OneShotPreDrawListener
 androidx.core.view.PointerIconCompat
 androidx.core.view.ScaleGestureDetectorCompat
 androidx.core.view.ScrollingView
 androidx.core.view.TintableBackgroundView
 androidx.core.view.VelocityTrackerCompat
-androidx.core.view.ViewCompat$1:
-    public androidx.core.view.ContentInfoCompat onReceiveContent(androidx.core.view.ContentInfoCompat)
+androidx.core.view.ViewCompat$1
 androidx.core.view.ViewCompat$2
-androidx.core.view.ViewCompat$3:
-    void frameworkSet(android.view.View,java.lang.CharSequence)
-    synthetic bridge void frameworkSet(android.view.View,java.lang.Object)
-    boolean shouldUpdate(java.lang.CharSequence,java.lang.CharSequence)
-    synthetic bridge boolean shouldUpdate(java.lang.Object,java.lang.Object)
+androidx.core.view.ViewCompat$3
 androidx.core.view.ViewCompat$4
 androidx.core.view.ViewCompat$5
-androidx.core.view.ViewCompat$AccessibilityPaneVisibilityManager:
-    void addAccessibilityPane(android.view.View)
-    void removeAccessibilityPane(android.view.View)
-    private void unregisterForLayoutCallback(android.view.View)
-androidx.core.view.ViewCompat$AccessibilityViewProperty:
-    void <init>(int,java.lang.Class,int)
-    boolean booleanNullToFalseEquals(java.lang.Boolean,java.lang.Boolean)
-    abstract void frameworkSet(android.view.View,java.lang.Object)
-    void set(android.view.View,java.lang.Object)
-    boolean shouldUpdate(java.lang.Object,java.lang.Object)
+androidx.core.view.ViewCompat$AccessibilityPaneVisibilityManager
+androidx.core.view.ViewCompat$AccessibilityViewProperty
 androidx.core.view.ViewCompat$Api21Impl$1
-androidx.core.view.ViewCompat$Api21Impl:
-    private void <init>()
-    static void callCompatInsetAnimationCallback(android.view.WindowInsets,android.view.View)
-    static androidx.core.view.WindowInsetsCompat computeSystemWindowInsets(android.view.View,androidx.core.view.WindowInsetsCompat,android.graphics.Rect)
-    static void setOnApplyWindowInsetsListener(android.view.View,androidx.core.view.OnApplyWindowInsetsListener)
-androidx.core.view.ViewCompat$Api23Impl:
-    private void <init>()
+androidx.core.view.ViewCompat$Api21Impl
+androidx.core.view.ViewCompat$Api23Impl
 androidx.core.view.ViewCompat$Api29Impl
 androidx.core.view.ViewCompat$Api30Impl
 androidx.core.view.ViewCompat$CompatImplApi28$1
@@ -850,234 +776,7 @@ androidx.core.view.ViewCompat$OnUnhandledKeyEventListenerCompat
 androidx.core.view.ViewCompat$ScrollAxis
 androidx.core.view.ViewCompat$ScrollIndicators
 androidx.core.view.ViewCompat$UnhandledKeyEventManager
-androidx.core.view.ViewCompat:
-    public static final int ACCESSIBILITY_LIVE_REGION_ASSERTIVE
-    public static final int ACCESSIBILITY_LIVE_REGION_NONE
-    public static final int ACCESSIBILITY_LIVE_REGION_POLITE
-    public static final int IMPORTANT_FOR_ACCESSIBILITY_AUTO
-    public static final int IMPORTANT_FOR_ACCESSIBILITY_NO
-    public static final int IMPORTANT_FOR_ACCESSIBILITY_NO_HIDE_DESCENDANTS
-    public static final int IMPORTANT_FOR_ACCESSIBILITY_YES
-    public static final int LAYER_TYPE_HARDWARE
-    public static final int LAYER_TYPE_NONE
-    public static final int LAYER_TYPE_SOFTWARE
-    public static final int LAYOUT_DIRECTION_INHERIT
-    public static final int LAYOUT_DIRECTION_LOCALE
-    public static final int LAYOUT_DIRECTION_LTR
-    public static final int LAYOUT_DIRECTION_RTL
-    public static final int MEASURED_HEIGHT_STATE_SHIFT
-    public static final int MEASURED_SIZE_MASK
-    public static final int MEASURED_STATE_MASK
-    public static final int MEASURED_STATE_TOO_SMALL
-    public static final int OVER_SCROLL_ALWAYS
-    public static final int OVER_SCROLL_IF_CONTENT_SCROLLS
-    public static final int OVER_SCROLL_NEVER
-    public static final int SCROLL_AXIS_HORIZONTAL
-    public static final int SCROLL_AXIS_NONE
-    public static final int SCROLL_AXIS_VERTICAL
-    public static final int SCROLL_INDICATOR_BOTTOM
-    public static final int SCROLL_INDICATOR_END
-    public static final int SCROLL_INDICATOR_LEFT
-    public static final int SCROLL_INDICATOR_RIGHT
-    public static final int SCROLL_INDICATOR_START
-    public static final int SCROLL_INDICATOR_TOP
-    private static final java.lang.String TAG
-    public static final int TYPE_NON_TOUCH
-    public static final int TYPE_TOUCH
-    private static java.lang.reflect.Field sAccessibilityDelegateField
-    private static java.lang.reflect.Method sChildrenDrawingOrderMethod
-    private static java.lang.reflect.Method sDispatchFinishTemporaryDetach
-    private static java.lang.reflect.Method sDispatchStartTemporaryDetach
-    private static java.lang.reflect.Field sMinHeightField
-    private static boolean sMinHeightFieldFetched
-    private static java.lang.reflect.Field sMinWidthField
-    private static boolean sMinWidthFieldFetched
-    private static boolean sTempDetachBound
-    private static java.lang.ThreadLocal sThreadLocalRect
-    private static java.util.WeakHashMap sTransitionNameMap
-    protected void <init>()
-    private static androidx.core.view.ViewCompat$AccessibilityViewProperty accessibilityHeadingProperty()
-    public static int addAccessibilityAction(android.view.View,java.lang.CharSequence,androidx.core.view.accessibility.AccessibilityViewCommand)
-    private static void addAccessibilityAction(android.view.View,androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat)
-    public static void addKeyboardNavigationClusters(android.view.View,java.util.Collection,int)
-    public static void addOnUnhandledKeyEventListener(android.view.View,androidx.core.view.ViewCompat$OnUnhandledKeyEventListenerCompat)
-    public static androidx.core.view.ViewPropertyAnimatorCompat animate(android.view.View)
-    private static void bindTempDetach()
-    public static boolean canScrollHorizontally(android.view.View,int)
-    public static boolean canScrollVertically(android.view.View,int)
-    public static void cancelDragAndDrop(android.view.View)
-    public static int combineMeasuredStates(int,int)
-    private static void compatOffsetLeftAndRight(android.view.View,int)
-    private static void compatOffsetTopAndBottom(android.view.View,int)
-    public static androidx.core.view.WindowInsetsCompat computeSystemWindowInsets(android.view.View,androidx.core.view.WindowInsetsCompat,android.graphics.Rect)
-    public static androidx.core.view.WindowInsetsCompat dispatchApplyWindowInsets(android.view.View,androidx.core.view.WindowInsetsCompat)
-    public static void dispatchFinishTemporaryDetach(android.view.View)
-    public static boolean dispatchNestedFling(android.view.View,float,float,boolean)
-    public static boolean dispatchNestedPreFling(android.view.View,float,float)
-    public static boolean dispatchNestedPreScroll(android.view.View,int,int,int[],int[])
-    public static boolean dispatchNestedPreScroll(android.view.View,int,int,int[],int[],int)
-    public static void dispatchNestedScroll(android.view.View,int,int,int,int,int[],int,int[])
-    public static boolean dispatchNestedScroll(android.view.View,int,int,int,int,int[])
-    public static boolean dispatchNestedScroll(android.view.View,int,int,int,int,int[],int)
-    public static void dispatchStartTemporaryDetach(android.view.View)
-    static boolean dispatchUnhandledKeyEventBeforeCallback(android.view.View,android.view.KeyEvent)
-    static boolean dispatchUnhandledKeyEventBeforeHierarchy(android.view.View,android.view.KeyEvent)
-    public static void enableAccessibleClickableSpanSupport(android.view.View)
-    public static int generateViewId()
-    public static androidx.core.view.AccessibilityDelegateCompat getAccessibilityDelegate(android.view.View)
-    private static android.view.View$AccessibilityDelegate getAccessibilityDelegateInternal(android.view.View)
-    private static android.view.View$AccessibilityDelegate getAccessibilityDelegateThroughReflection(android.view.View)
-    public static androidx.core.view.accessibility.AccessibilityNodeProviderCompat getAccessibilityNodeProvider(android.view.View)
-    private static java.util.List getActionList(android.view.View)
-    public static float getAlpha(android.view.View)
-    private static int getAvailableActionIdFromResources(android.view.View,java.lang.CharSequence)
-    public static android.content.res.ColorStateList getBackgroundTintList(android.view.View)
-    public static android.graphics.PorterDuff$Mode getBackgroundTintMode(android.view.View)
-    public static android.graphics.Rect getClipBounds(android.view.View)
-    public static android.view.Display getDisplay(android.view.View)
-    public static float getElevation(android.view.View)
-    private static android.graphics.Rect getEmptyTempRect()
-    private static androidx.core.view.OnReceiveContentViewBehavior getFallback(android.view.View)
-    public static boolean getFitsSystemWindows(android.view.View)
-    public static int getImportantForAutofill(android.view.View)
-    public static int getLabelFor(android.view.View)
-    public static int getLayerType(android.view.View)
-    public static int getLayoutDirection(android.view.View)
-    public static android.graphics.Matrix getMatrix(android.view.View)
-    public static int getMeasuredHeightAndState(android.view.View)
-    public static int getMeasuredState(android.view.View)
-    public static int getMeasuredWidthAndState(android.view.View)
-    public static int getMinimumHeight(android.view.View)
-    public static int getMinimumWidth(android.view.View)
-    public static int getNextClusterForwardId(android.view.View)
-    public static java.lang.String[] getOnReceiveContentMimeTypes(android.view.View)
-    static androidx.core.view.AccessibilityDelegateCompat getOrCreateAccessibilityDelegateCompat(android.view.View)
-    public static int getOverScrollMode(android.view.View)
-    public static int getPaddingEnd(android.view.View)
-    public static int getPaddingStart(android.view.View)
-    public static android.view.ViewParent getParentForAccessibility(android.view.View)
-    public static float getPivotX(android.view.View)
-    public static float getPivotY(android.view.View)
-    public static float getRotation(android.view.View)
-    public static float getRotationX(android.view.View)
-    public static float getRotationY(android.view.View)
-    public static float getScaleX(android.view.View)
-    public static float getScaleY(android.view.View)
-    public static int getScrollIndicators(android.view.View)
-    public static final java.lang.CharSequence getStateDescription(android.view.View)
-    public static java.util.List getSystemGestureExclusionRects(android.view.View)
-    public static java.lang.String getTransitionName(android.view.View)
-    public static float getTranslationX(android.view.View)
-    public static float getTranslationY(android.view.View)
-    public static float getTranslationZ(android.view.View)
-    public static androidx.core.view.WindowInsetsControllerCompat getWindowInsetsController(android.view.View)
-    public static int getWindowSystemUiVisibility(android.view.View)
-    public static float getX(android.view.View)
-    public static float getY(android.view.View)
-    public static float getZ(android.view.View)
-    public static boolean hasAccessibilityDelegate(android.view.View)
-    public static boolean hasExplicitFocusable(android.view.View)
-    public static boolean hasNestedScrollingParent(android.view.View)
-    public static boolean hasNestedScrollingParent(android.view.View,int)
-    public static boolean hasOnClickListeners(android.view.View)
-    public static boolean hasOverlappingRendering(android.view.View)
-    public static boolean hasTransientState(android.view.View)
-    public static boolean isAccessibilityHeading(android.view.View)
-    public static boolean isAttachedToWindow(android.view.View)
-    public static boolean isFocusedByDefault(android.view.View)
-    public static boolean isImportantForAccessibility(android.view.View)
-    public static boolean isImportantForAutofill(android.view.View)
-    public static boolean isInLayout(android.view.View)
-    public static boolean isKeyboardNavigationCluster(android.view.View)
-    public static boolean isLaidOut(android.view.View)
-    public static boolean isLayoutDirectionResolved(android.view.View)
-    public static boolean isNestedScrollingEnabled(android.view.View)
-    public static boolean isOpaque(android.view.View)
-    public static boolean isPaddingRelative(android.view.View)
-    public static boolean isScreenReaderFocusable(android.view.View)
-    public static void jumpDrawablesToCurrentState(android.view.View)
-    public static android.view.View keyboardNavigationClusterSearch(android.view.View,android.view.View,int)
-    public static void offsetLeftAndRight(android.view.View,int)
-    public static void offsetTopAndBottom(android.view.View,int)
-    public static androidx.core.view.WindowInsetsCompat onApplyWindowInsets(android.view.View,androidx.core.view.WindowInsetsCompat)
-    public static void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
-    public static void onInitializeAccessibilityNodeInfo(android.view.View,androidx.core.view.accessibility.AccessibilityNodeInfoCompat)
-    public static void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
-    public static boolean performAccessibilityAction(android.view.View,int,android.os.Bundle)
-    public static androidx.core.view.ContentInfoCompat performReceiveContent(android.view.View,androidx.core.view.ContentInfoCompat)
-    public static void postInvalidateOnAnimation(android.view.View)
-    public static void postInvalidateOnAnimation(android.view.View,int,int,int,int)
-    public static void postOnAnimation(android.view.View,java.lang.Runnable)
-    public static void postOnAnimationDelayed(android.view.View,java.lang.Runnable,long)
-    public static void removeAccessibilityAction(android.view.View,int)
-    private static void removeActionWithId(int,android.view.View)
-    public static void removeOnUnhandledKeyEventListener(android.view.View,androidx.core.view.ViewCompat$OnUnhandledKeyEventListenerCompat)
-    public static void replaceAccessibilityAction(android.view.View,androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat,java.lang.CharSequence,androidx.core.view.accessibility.AccessibilityViewCommand)
-    public static void requestApplyInsets(android.view.View)
-    public static android.view.View requireViewById(android.view.View,int)
-    public static int resolveSizeAndState(int,int,int)
-    public static boolean restoreDefaultFocus(android.view.View)
-    public static void saveAttributeDataForStyleable(android.view.View,android.content.Context,int[],android.util.AttributeSet,android.content.res.TypedArray,int,int)
-    private static androidx.core.view.ViewCompat$AccessibilityViewProperty screenReaderFocusableProperty()
-    public static void setAccessibilityDelegate(android.view.View,androidx.core.view.AccessibilityDelegateCompat)
-    public static void setAccessibilityHeading(android.view.View,boolean)
-    public static void setAccessibilityLiveRegion(android.view.View,int)
-    public static void setAccessibilityPaneTitle(android.view.View,java.lang.CharSequence)
-    public static void setActivated(android.view.View,boolean)
-    public static void setAlpha(android.view.View,float)
-    public static varargs void setAutofillHints(android.view.View,java.lang.String[])
-    public static void setBackground(android.view.View,android.graphics.drawable.Drawable)
-    public static void setBackgroundTintList(android.view.View,android.content.res.ColorStateList)
-    public static void setBackgroundTintMode(android.view.View,android.graphics.PorterDuff$Mode)
-    public static void setChildrenDrawingOrderEnabled(android.view.ViewGroup,boolean)
-    public static void setClipBounds(android.view.View,android.graphics.Rect)
-    public static void setElevation(android.view.View,float)
-    public static void setFitsSystemWindows(android.view.View,boolean)
-    public static void setFocusedByDefault(android.view.View,boolean)
-    public static void setHasTransientState(android.view.View,boolean)
-    public static void setImportantForAutofill(android.view.View,int)
-    public static void setKeyboardNavigationCluster(android.view.View,boolean)
-    public static void setLabelFor(android.view.View,int)
-    public static void setLayerPaint(android.view.View,android.graphics.Paint)
-    public static void setLayerType(android.view.View,int,android.graphics.Paint)
-    public static void setLayoutDirection(android.view.View,int)
-    public static void setNestedScrollingEnabled(android.view.View,boolean)
-    public static void setNextClusterForwardId(android.view.View,int)
-    public static void setOnApplyWindowInsetsListener(android.view.View,androidx.core.view.OnApplyWindowInsetsListener)
-    public static void setOnReceiveContentListener(android.view.View,java.lang.String[],androidx.core.view.OnReceiveContentListener)
-    public static void setOverScrollMode(android.view.View,int)
-    public static void setPaddingRelative(android.view.View,int,int,int,int)
-    public static void setPivotX(android.view.View,float)
-    public static void setPivotY(android.view.View,float)
-    public static void setPointerIcon(android.view.View,androidx.core.view.PointerIconCompat)
-    public static void setRotation(android.view.View,float)
-    public static void setRotationX(android.view.View,float)
-    public static void setRotationY(android.view.View,float)
-    public static void setSaveFromParentEnabled(android.view.View,boolean)
-    public static void setScaleX(android.view.View,float)
-    public static void setScaleY(android.view.View,float)
-    public static void setScreenReaderFocusable(android.view.View,boolean)
-    public static void setScrollIndicators(android.view.View,int)
-    public static void setScrollIndicators(android.view.View,int,int)
-    public static void setStateDescription(android.view.View,java.lang.CharSequence)
-    public static void setSystemGestureExclusionRects(android.view.View,java.util.List)
-    public static void setTooltipText(android.view.View,java.lang.CharSequence)
-    public static void setTransitionName(android.view.View,java.lang.String)
-    public static void setTranslationX(android.view.View,float)
-    public static void setTranslationY(android.view.View,float)
-    public static void setTranslationZ(android.view.View,float)
-    public static void setWindowInsetsAnimationCallback(android.view.View,androidx.core.view.WindowInsetsAnimationCompat$Callback)
-    public static void setX(android.view.View,float)
-    public static void setY(android.view.View,float)
-    public static void setZ(android.view.View,float)
-    public static boolean startDragAndDrop(android.view.View,android.content.ClipData,android.view.View$DragShadowBuilder,java.lang.Object,int)
-    public static boolean startNestedScroll(android.view.View,int)
-    public static boolean startNestedScroll(android.view.View,int,int)
-    private static androidx.core.view.ViewCompat$AccessibilityViewProperty stateDescriptionProperty()
-    public static void stopNestedScroll(android.view.View)
-    public static void stopNestedScroll(android.view.View,int)
-    private static void tickleInvalidationFlag(android.view.View)
-    public static void updateDragShadow(android.view.View,android.view.View$DragShadowBuilder)
+androidx.core.view.ViewCompat
 androidx.core.view.ViewConfigurationCompat
 androidx.core.view.ViewGroupCompat
 androidx.core.view.ViewParentCompat
@@ -1107,94 +806,22 @@ androidx.core.view.WindowInsetsAnimationControlListenerCompat
 androidx.core.view.WindowInsetsAnimationControllerCompat$Impl30
 androidx.core.view.WindowInsetsAnimationControllerCompat$Impl
 androidx.core.view.WindowInsetsAnimationControllerCompat
-androidx.core.view.WindowInsetsCompat$Api21ReflectionHolder:
-    private void <init>()
-androidx.core.view.WindowInsetsCompat$Builder:
-    public void <init>(androidx.core.view.WindowInsetsCompat)
-    public androidx.core.view.WindowInsetsCompat$Builder setDisplayCutout(androidx.core.view.DisplayCutoutCompat)
-    public androidx.core.view.WindowInsetsCompat$Builder setInsets(int,androidx.core.graphics.Insets)
-    public androidx.core.view.WindowInsetsCompat$Builder setInsetsIgnoringVisibility(int,androidx.core.graphics.Insets)
-    public androidx.core.view.WindowInsetsCompat$Builder setMandatorySystemGestureInsets(androidx.core.graphics.Insets)
-    public androidx.core.view.WindowInsetsCompat$Builder setSystemGestureInsets(androidx.core.graphics.Insets)
-    public androidx.core.view.WindowInsetsCompat$Builder setTappableElementInsets(androidx.core.graphics.Insets)
-    public androidx.core.view.WindowInsetsCompat$Builder setVisible(int,boolean)
-androidx.core.view.WindowInsetsCompat$BuilderImpl20:
-    void <init>(androidx.core.view.WindowInsetsCompat)
-androidx.core.view.WindowInsetsCompat$BuilderImpl29:
-    void <init>(androidx.core.view.WindowInsetsCompat)
-    void setDisplayCutout(androidx.core.view.DisplayCutoutCompat)
-androidx.core.view.WindowInsetsCompat$BuilderImpl30:
-    void <init>(androidx.core.view.WindowInsetsCompat)
-    void setInsets(int,androidx.core.graphics.Insets)
-    void setInsetsIgnoringVisibility(int,androidx.core.graphics.Insets)
-    void setVisible(int,boolean)
-androidx.core.view.WindowInsetsCompat$BuilderImpl:
-    void setDisplayCutout(androidx.core.view.DisplayCutoutCompat)
-    void setInsets(int,androidx.core.graphics.Insets)
-    void setInsetsIgnoringVisibility(int,androidx.core.graphics.Insets)
-    void setVisible(int,boolean)
-androidx.core.view.WindowInsetsCompat$Impl20:
-    public androidx.core.graphics.Insets getInsetsIgnoringVisibility(int)
-    androidx.core.view.WindowInsetsCompat inset(int,int,int,int)
-androidx.core.view.WindowInsetsCompat$Impl29:
-    androidx.core.view.WindowInsetsCompat inset(int,int,int,int)
-androidx.core.view.WindowInsetsCompat$Impl30:
-    public androidx.core.graphics.Insets getInsetsIgnoringVisibility(int)
-androidx.core.view.WindowInsetsCompat$Impl:
-    androidx.core.graphics.Insets getInsetsIgnoringVisibility(int)
-    androidx.core.view.WindowInsetsCompat inset(int,int,int,int)
+androidx.core.view.WindowInsetsCompat$Api21ReflectionHolder
+androidx.core.view.WindowInsetsCompat$Builder
+androidx.core.view.WindowInsetsCompat$BuilderImpl20
+androidx.core.view.WindowInsetsCompat$BuilderImpl29
+androidx.core.view.WindowInsetsCompat$BuilderImpl30
+androidx.core.view.WindowInsetsCompat$BuilderImpl
+androidx.core.view.WindowInsetsCompat$Impl20
+androidx.core.view.WindowInsetsCompat$Impl21
+androidx.core.view.WindowInsetsCompat$Impl28
+androidx.core.view.WindowInsetsCompat$Impl29
+androidx.core.view.WindowInsetsCompat$Impl30
+androidx.core.view.WindowInsetsCompat$Impl
 androidx.core.view.WindowInsetsCompat$Type$InsetsType
-androidx.core.view.WindowInsetsCompat$Type:
-    static final int CAPTION_BAR
-    static final int DISPLAY_CUTOUT
-    static final int FIRST
-    static final int IME
-    static final int LAST
-    static final int MANDATORY_SYSTEM_GESTURES
-    static final int NAVIGATION_BARS
-    static final int SIZE
-    static final int STATUS_BARS
-    static final int SYSTEM_GESTURES
-    static final int TAPPABLE_ELEMENT
-    static final int WINDOW_DECOR
-    private void <init>()
-    static int all()
-    public static int captionBar()
-    public static int displayCutout()
-    public static int mandatorySystemGestures()
-    public static int navigationBars()
-    public static int statusBars()
-    public static int systemBars()
-    public static int systemGestures()
-    public static int tappableElement()
-androidx.core.view.WindowInsetsCompat$TypeImpl30:
-    private void <init>()
-androidx.core.view.WindowInsetsCompat:
-    private static final java.lang.String TAG
-    public androidx.core.graphics.Insets getInsetsIgnoringVisibility(int)
-    public androidx.core.graphics.Insets getMandatorySystemGestureInsets()
-    public int getStableInsetBottom()
-    public int getStableInsetLeft()
-    public int getStableInsetRight()
-    public int getStableInsetTop()
-    public androidx.core.graphics.Insets getSystemGestureInsets()
-    public int getSystemWindowInsetBottom()
-    public int getSystemWindowInsetLeft()
-    public int getSystemWindowInsetRight()
-    public int getSystemWindowInsetTop()
-    public androidx.core.graphics.Insets getSystemWindowInsets()
-    public androidx.core.graphics.Insets getTappableElementInsets()
-    public boolean hasInsets()
-    public boolean hasStableInsets()
-    public boolean hasSystemWindowInsets()
-    public androidx.core.view.WindowInsetsCompat inset(int,int,int,int)
-    public androidx.core.view.WindowInsetsCompat inset(androidx.core.graphics.Insets)
-    static androidx.core.graphics.Insets insetInsets(androidx.core.graphics.Insets,int,int,int,int)
-    public boolean isConsumed()
-    public boolean isRound()
-    public androidx.core.view.WindowInsetsCompat replaceSystemWindowInsets(int,int,int,int)
-    public androidx.core.view.WindowInsetsCompat replaceSystemWindowInsets(android.graphics.Rect)
-    public android.view.WindowInsets toWindowInsets()
+androidx.core.view.WindowInsetsCompat$Type
+androidx.core.view.WindowInsetsCompat$TypeImpl30
+androidx.core.view.WindowInsetsCompat
 androidx.core.view.WindowInsetsControllerCompat$Impl20$1
 androidx.core.view.WindowInsetsControllerCompat$Impl20:
     void addOnControllableInsetsChangedListener(androidx.core.view.WindowInsetsControllerCompat$OnControllableInsetsChangedListener)
@@ -2271,6 +1898,7 @@ io.flutter.app.FlutterPluginRegistry$FlutterRegistrar
 io.flutter.app.FlutterPluginRegistry
 io.flutter.embedding.android.AndroidTouchProcessor$PointerChange
 io.flutter.embedding.android.AndroidTouchProcessor$PointerDeviceKind
+io.flutter.embedding.android.AndroidTouchProcessor$PointerPreferredStylusAuxiliaryAction
 io.flutter.embedding.android.AndroidTouchProcessor$PointerSignalKind
 io.flutter.embedding.android.AndroidTouchProcessor:
     static final int BYTES_PER_FIELD
@@ -2303,7 +1931,6 @@ io.flutter.embedding.android.FlutterActivityLaunchConfigs
 io.flutter.embedding.android.FlutterEngineConfigurator
 io.flutter.embedding.android.FlutterEngineProvider
 io.flutter.embedding.android.FlutterFragment$1
-io.flutter.embedding.android.FlutterFragment$2
 io.flutter.embedding.android.FlutterFragment$ActivityCallThrough
 io.flutter.embedding.android.FlutterFragment$CachedEngineFragmentBuilder
 io.flutter.embedding.android.FlutterFragment$NewEngineFragmentBuilder
@@ -2388,15 +2015,12 @@ io.flutter.embedding.engine.FlutterEngineConnectionRegistry$FlutterEngineActivit
     public void addOnNewIntentListener(io.flutter.plugin.common.PluginRegistry$NewIntentListener)
     public void addOnSaveStateListener(io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding$OnSaveInstanceStateListener)
     public void addOnUserLeaveHintListener(io.flutter.plugin.common.PluginRegistry$UserLeaveHintListener)
-    public void addOnWindowFocusChangedListener(io.flutter.plugin.common.PluginRegistry$WindowFocusChangedListener)
     public void addRequestPermissionsResultListener(io.flutter.plugin.common.PluginRegistry$RequestPermissionsResultListener)
     public java.lang.Object getLifecycle()
-    void onWindowFocusChanged(boolean)
     public void removeActivityResultListener(io.flutter.plugin.common.PluginRegistry$ActivityResultListener)
     public void removeOnNewIntentListener(io.flutter.plugin.common.PluginRegistry$NewIntentListener)
     public void removeOnSaveStateListener(io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding$OnSaveInstanceStateListener)
     public void removeOnUserLeaveHintListener(io.flutter.plugin.common.PluginRegistry$UserLeaveHintListener)
-    public void removeOnWindowFocusChangedListener(io.flutter.plugin.common.PluginRegistry$WindowFocusChangedListener)
     public void removeRequestPermissionsResultListener(io.flutter.plugin.common.PluginRegistry$RequestPermissionsResultListener)
 io.flutter.embedding.engine.FlutterEngineConnectionRegistry$FlutterEngineBroadcastReceiverPluginBinding:
     private final android.content.BroadcastReceiver broadcastReceiver
@@ -2541,9 +2165,7 @@ io.flutter.embedding.engine.loader.FlutterLoader:
     private static final java.lang.String DEFAULT_KERNEL_BLOB
     private static final java.lang.String DEFAULT_LIBRARY
     private static final java.lang.String ENABLE_IMPELLER_META_DATA_KEY
-    private static final java.lang.String ENABLE_VULKAN_VALIDATION_META_DATA_KEY
     static final java.lang.String FLUTTER_ASSETS_DIR_KEY
-    private static final java.lang.String IMPELLER_BACKEND_META_DATA_KEY
     static final java.lang.String ISOLATE_SNAPSHOT_DATA_KEY
     private static final java.lang.String LEAK_VM_META_DATA_KEY
     private static final java.lang.String OLD_GEN_HEAP_SIZE_META_DATA_KEY
@@ -2610,14 +2232,12 @@ io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding:
     public abstract void addOnNewIntentListener(io.flutter.plugin.common.PluginRegistry$NewIntentListener)
     public abstract void addOnSaveStateListener(io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding$OnSaveInstanceStateListener)
     public abstract void addOnUserLeaveHintListener(io.flutter.plugin.common.PluginRegistry$UserLeaveHintListener)
-    public abstract void addOnWindowFocusChangedListener(io.flutter.plugin.common.PluginRegistry$WindowFocusChangedListener)
     public abstract void addRequestPermissionsResultListener(io.flutter.plugin.common.PluginRegistry$RequestPermissionsResultListener)
     public abstract java.lang.Object getLifecycle()
     public abstract void removeActivityResultListener(io.flutter.plugin.common.PluginRegistry$ActivityResultListener)
     public abstract void removeOnNewIntentListener(io.flutter.plugin.common.PluginRegistry$NewIntentListener)
     public abstract void removeOnSaveStateListener(io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding$OnSaveInstanceStateListener)
     public abstract void removeOnUserLeaveHintListener(io.flutter.plugin.common.PluginRegistry$UserLeaveHintListener)
-    public abstract void removeOnWindowFocusChangedListener(io.flutter.plugin.common.PluginRegistry$WindowFocusChangedListener)
     public abstract void removeRequestPermissionsResultListener(io.flutter.plugin.common.PluginRegistry$RequestPermissionsResultListener)
 io.flutter.embedding.engine.plugins.broadcastreceiver.BroadcastReceiverControlSurface
 io.flutter.embedding.engine.plugins.broadcastreceiver.BroadcastReceiverPluginBinding:
@@ -2663,7 +2283,6 @@ io.flutter.embedding.engine.systemchannels.KeyEventChannel$FlutterKeyEvent:
 io.flutter.embedding.engine.systemchannels.KeyEventChannel:
     private static final java.lang.String TAG
 io.flutter.embedding.engine.systemchannels.LifecycleChannel:
-    private static final java.lang.String CHANNEL_NAME
     private static final java.lang.String TAG
 io.flutter.embedding.engine.systemchannels.LocalizationChannel:
     private static final java.lang.String TAG
@@ -2734,7 +2353,6 @@ io.flutter.plugin.common.MethodChannel:
 io.flutter.plugin.common.PluginRegistry$PluginRegistrantCallback
 io.flutter.plugin.common.PluginRegistry$Registrar
 io.flutter.plugin.common.PluginRegistry$ViewDestroyListener
-io.flutter.plugin.common.PluginRegistry$WindowFocusChangedListener
 io.flutter.plugin.common.PluginRegistry
 io.flutter.plugin.common.StandardMessageCodec:
     private static final byte BIGINT
@@ -2798,13 +2416,11 @@ io.flutter.plugin.platform.PlatformViewWrapper:
     public android.graphics.SurfaceTexture getTexture()
 io.flutter.plugin.platform.PlatformViewsController:
     private static final java.lang.String TAG
-    public void disposePlatformView(int)
     public android.util.SparseArray getOverlayLayerViews()
 io.flutter.plugin.platform.SingleViewPresentation$WindowManagerHandler:
     private static final java.lang.String TAG
 io.flutter.plugin.platform.VirtualDisplayController:
     public void dispose()
-    void onFlutterViewAttached(android.view.View)
     void onFlutterViewDetached()
 io.flutter.plugins.webviewflutter.BuildConfig
 io.flutter.plugins.webviewflutter.DisplayListenerProxy:
@@ -9400,9 +9016,7 @@ io.flutter.embedding.engine.FlutterEngineConnectionRegistry:
     private io.flutter.embedding.engine.FlutterEngineConnectionRegistry$FlutterEngineServicePluginBinding servicePluginBinding
 io.flutter.embedding.engine.loader.ResourceExtractor:
     void waitForCompletion()
-io.flutter.embedding.engine.systemchannels.PlatformChannel$PlatformMessageHandler$-CC
 io.flutter.plugin.common.BinaryMessenger$-CC
-io.flutter.plugin.platform.PlatformPlugin$PlatformPluginDelegate$-CC
 io.flutter.plugin.platform.VirtualDisplayController:
     private static java.lang.String TAG
 io.flutter.view.TextureRegistry$SurfaceTextureEntry$-CC
