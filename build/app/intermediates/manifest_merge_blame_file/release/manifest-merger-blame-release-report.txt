@@ -24,7 +24,7 @@
 17        android:label="Nakshatra Vatika - Virtual Tour" >
 17-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:6:9-56
 18        <activity
-18-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:9:9-26:20
+18-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:9:9-27:20
 19            android:name="com.btkit.nakshatra_vatika.MainActivity"
 19-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:10:13-41
 20            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
@@ -35,51 +35,53 @@
 22-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:15:13-47
 23            android:launchMode="singleTop"
 23-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:12:13-43
-24            android:theme="@style/LaunchTheme"
-24-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:13:13-47
-25            android:windowSoftInputMode="adjustResize" >
-25-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:16:13-55
-26            <meta-data
-26-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:18:13-21:17
-27                android:name="io.flutter.embedding.android.NormalTheme"
-27-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:19:15-70
-28                android:resource="@style/NormalTheme" />
-28-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:20:15-52
-29
-30            <intent-filter>
-30-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:22:13-25:29
-31                <action android:name="android.intent.action.MAIN" />
-31-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:23:17-68
-31-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:23:25-66
-32
-33                <category android:name="android.intent.category.LAUNCHER" />
-33-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:24:17-76
-33-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:24:27-74
-34            </intent-filter>
-35        </activity>
-36        <!--
-37             Don't delete the meta-data below.
-38             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-39        -->
-40        <meta-data
-40-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:29:9-31:33
-41            android:name="flutterEmbedding"
-41-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:30:13-44
-42            android:value="2" />
-42-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:31:13-30
-43
-44        <uses-library
-44-->[androidx.window:window:1.0.0-beta04] C:\Users\shubh\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
-45            android:name="androidx.window.extensions"
-45-->[androidx.window:window:1.0.0-beta04] C:\Users\shubh\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
-46            android:required="false" />
-46-->[androidx.window:window:1.0.0-beta04] C:\Users\shubh\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
-47        <uses-library
-47-->[androidx.window:window:1.0.0-beta04] C:\Users\shubh\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
-48            android:name="androidx.window.sidecar"
-48-->[androidx.window:window:1.0.0-beta04] C:\Users\shubh\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
-49            android:required="false" />
-49-->[androidx.window:window:1.0.0-beta04] C:\Users\shubh\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
-50    </application>
-51
-52</manifest>
+24            android:resizeableActivity="false"
+24-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:16:13-47
+25            android:theme="@style/LaunchTheme"
+25-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:13:13-47
+26            android:windowSoftInputMode="adjustResize" >
+26-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:17:13-55
+27            <meta-data
+27-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:19:13-22:17
+28                android:name="io.flutter.embedding.android.NormalTheme"
+28-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:20:15-70
+29                android:resource="@style/NormalTheme" />
+29-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:21:15-52
+30
+31            <intent-filter>
+31-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:23:13-26:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:24:17-68
+32-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:24:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:25:17-76
+34-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:25:27-74
+35            </intent-filter>
+36        </activity>
+37        <!--
+38             Don't delete the meta-data below.
+39             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+40        -->
+41        <meta-data
+41-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:30:9-32:33
+42            android:name="flutterEmbedding"
+42-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:31:13-44
+43            android:value="2" />
+43-->C:\Users\shubh\Desktop\Virtual Tour - NV\nvvt\android\app\src\main\AndroidManifest.xml:32:13-30
+44
+45        <uses-library
+45-->[androidx.window:window:1.0.0-beta04] C:\Users\shubh\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+46            android:name="androidx.window.extensions"
+46-->[androidx.window:window:1.0.0-beta04] C:\Users\shubh\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+47            android:required="false" />
+47-->[androidx.window:window:1.0.0-beta04] C:\Users\shubh\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+48        <uses-library
+48-->[androidx.window:window:1.0.0-beta04] C:\Users\shubh\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+49            android:name="androidx.window.sidecar"
+49-->[androidx.window:window:1.0.0-beta04] C:\Users\shubh\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+50            android:required="false" />
+50-->[androidx.window:window:1.0.0-beta04] C:\Users\shubh\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+51    </application>
+52
+53</manifest>

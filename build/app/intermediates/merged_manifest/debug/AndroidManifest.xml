@@ -26,6 +26,7 @@
             android:exported="true"
             android:hardwareAccelerated="true"
             android:launchMode="singleTop"
+            android:resizeableActivity="false"
             android:theme="@style/LaunchTheme"
             android:windowSoftInputMode="adjustResize" >
             <meta-data
